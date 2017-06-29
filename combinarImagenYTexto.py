@@ -1,3 +1,4 @@
+
 # imagen
 imagen = open("imagen.jpg", 'rb')
 imagenBinario = imagen.read()
@@ -14,7 +15,7 @@ archivoCombinado.write(imagenBinario)
 archivoCombinado.write(textoBinario)
 archivoCombinado.close()
 
-#comparar
+#comparar  ##   PROBAR DIFFLIB
 print(len(imagenBinario))
 print(len(textoBinario))
 archivoCombinado = open('archivoCombinado.jpg', 'rb')
@@ -23,3 +24,6 @@ archivoCombinado.close()
 print(len(archivoCombinadoBinario))
 
 #recuperar el texto??
+print(imagenBinario)
+
+print(archivoCombinadoBinario)
